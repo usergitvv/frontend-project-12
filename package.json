@@ -1,0 +1,31 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "Project num. 4 Slack-chat",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "postinstall": "npm ci --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "start": "npx start-server -s ./frontend/build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usergitvv/frontend-project-12.git"
+  },
+  "keywords": [
+    "chat",
+    "complex",
+    "project"
+  ],
+  "author": "Voronkov Valeriy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/usergitvv/frontend-project-12/issues"
+  },
+  "homepage": "https://github.com/usergitvv/frontend-project-12#readme",
+  "dependencies": {
+    "@hexlet/chat-server": "^1.1.6"
+  }
+}
